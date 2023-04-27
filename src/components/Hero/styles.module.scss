@@ -1,0 +1,40 @@
+.hero{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+    background-image: url("../../images/HeaderImage.webp");
+    .heading{
+        width: 60%;
+        font-size: 18px;
+        display: flex;
+        text-align: center;
+        color: white;
+    }
+    .button{
+        gap: 15px;
+        display: flex;
+        font-size: 20px;
+        border-radius: 4px;
+    }
+    .searcher{
+        width: 50%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        .input{
+            width: 90%;
+            height: 100%;
+            font-size: 10px;
+        }
+        .searchIcon{
+            width: 10%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: #E85451;
+        }
+    }
+}
