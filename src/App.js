@@ -21,7 +21,7 @@ function App() {
   const auth = getAuth(app);
 
  const [email , setEmail] = useState("anwar@gmail.com");
- const [password , setPassword] = useState("Pakistn1234");
+ const [password , setPassword] = useState("Pakistan1234");
 
  const createUser = () => {
  createUserWithEmailAndPassword(auth , email , password)
