@@ -1,0 +1,41 @@
+.cards_wrapper{
+     width: 90%;
+     display: flex;
+     gap: 20px;
+     position: relative;
+     margin: auto;
+     border-radius: 16px;
+     background-color: lightgray;
+     .gray_box {
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        border-radius: 100%;
+        position: absolute;
+        top: 50px;
+        left: -50px;
+        z-index: -1;
+    }
+    .red_box {
+        width: 100px;
+        height: 100px;
+        background-color: #E85451;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 50px;
+        right: -50px;
+        z-index: -1;
+    }
+    .cards{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        width: 80%;
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+    }
+}

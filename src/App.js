@@ -5,6 +5,7 @@ import { Hero } from './components/Hero/Hero';
 import { Navbar }from "./components/Navbar/Navbar";
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { Services } from './components/Services/Services';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
     <button onClick={createUser}>Create User</button>
     <button onClick={signInUser}> Sign In</button>  
     <BuyWant/>
+    <Services/>
     </>
     );
 }
