@@ -6,6 +6,9 @@ import { Navbar }from "./components/Navbar/Navbar";
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { Services } from './components/Services/Services';
+import { AreaGuide } from './components/AreaGuide/AreaGuide';
+import { PropertiesByArea } from './components/PropertiesByArea/PropertiesByArea';
+import { propertiesList } from './Data/data';
 
 function App() {
 
@@ -51,6 +54,9 @@ function App() {
     <button onClick={signInUser}> Sign In</button>  
     <BuyWant/>
     <Services/>
+    <AreaGuide/>
+    <PropertiesByArea title="Top areas by city"
+    propertiesList={propertiesList}/>
     </>
     );
 }

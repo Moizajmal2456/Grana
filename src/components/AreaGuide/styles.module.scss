@@ -1,0 +1,26 @@
+.Wrapper{
+    width: 100%;
+    margin-top: 40px;
+    height: 60vh;
+    background-image: url("../../images/ground.webp");
+    display: flex;
+    background-size: 100% 100%;
+    .left_section{
+        width: 60%;
+        padding-top: 50px ;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+    }
+    .right_section{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .image{
+            display: flex;
+            width: 100px;
+        }
+    }
+}

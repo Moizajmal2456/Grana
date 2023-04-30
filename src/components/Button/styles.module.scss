@@ -1,0 +1,26 @@
+button {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px;
+    background-color: transparent;
+    min-width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    &.primary {
+        background-color: white;
+    }
+    &.secondary {
+        background-color: #37474f;
+        color: white;
+    }
+
+    &.sm {
+        width: 100px;
+    }
+    &.lg {
+        width: 150px;
+    }
+    &.outline {
+        border: 1px solid black;
+    }
+}
