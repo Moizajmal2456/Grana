@@ -15,20 +15,23 @@ return(
       <DescriptionCards
       image={Buy}
       title="Buy a Property"
-      text="Find where “perfect” meets “happy”">
-      </DescriptionCards>
+      text="Find where “perfect” meets “happy”"
+      buttonText="BROWSE PROPERTIES"
+      buttonType="primary"/> 
       </div>
       <div className={style.cards}> 
       <DescriptionCards   image={Sell}
       title="Sell a Property"
-      text="Get the best value in any economy">
-      </DescriptionCards>
+      text="Get the best value in any economy"
+      buttonText="ADD DETAILS"
+      buttonType="primary"/>
       </div>
       <div className={style.cards}> 
       <DescriptionCards   image={Rent}
       title="Rent a Property"
-      text="Live where you can love">
-      </DescriptionCards>
+      text="Live where you can love"
+      buttonText="FIND RENTAL"
+      buttonType="primary"/>
       </div>
       <div className={style.red_box}></div>
     </div>

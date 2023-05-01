@@ -14,21 +14,25 @@ export const PropertiesByArea = ({title , propertiesList }) => {
 return(
 <div className={style.Properties_Area}>
 <h2>{title}</h2>
+<div className={style.cities_Name}>
 {citiesList.map((city) => {
-        return (
-          <Button
-            key={city.id}
-            title={city.name}
-            // onClick={() => handleCityClick(city.id)}
-          />
-        );
-      })}
+  return (
+    <Button
+    key={city.id}
+    title={city.name}
+    // onClick={() => handleCityClick(city.id)}
+    />
+    );
+  })}
+  </div>
+  <div className={style.properties_cards}>
       {propertiesList.map((property) => {
         return(
           <PropertyCard property={property}/>
           );
         })
       }
+      </div>
 </div>
 );
 } ;

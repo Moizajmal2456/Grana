@@ -1,0 +1,14 @@
+.Properties_Area {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    .cities_Name{
+        display: flex;
+        gap: 30px;
+    }
+    .properties_cards{
+      margin: 20px 0;
+      display: flex;
+      gap: 20px;
+    }
+}

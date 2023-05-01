@@ -7,15 +7,22 @@ import ArrowIcon from "../../images/areaGuideArrow.svg";
 
 export const PropertyCard = ({property}) => {
 return(
-    <div className={style.card_wrapper}>
-    <img src={property.area_image} alt="City"/>
-    <p>{property.area_name}</p>
-    <IconWithText icon_image={RentIcon}
-    icon_text={property.properties_for_rent + " for rent"} />
-    <IconWithText icon_image={HomeIcon}
-    icon_text={property.properties_for_sale + " for sale"} />
-    <IconWithText icon_image={ArrowIcon}
-    icon_text={"View Area Guide"} />
+    <div key={property.id} className="card">
+      <div className={style.cards}>
+         <div className={style.image}>
+           <img src={property.area_image} alt="City"/>
+         </div>
+          <p>{property.area_name}</p>
+          <div className={style.rs_div}>
+          <IconWithText icon_image={RentIcon}
+          icon_text={property.properties_for_rent + " for rent"} />
+          <IconWithText icon_image={HomeIcon}
+          icon_text={property.properties_for_sale + " for sale"} />
+          </div>
+          <hr/>
+          <IconWithText icon_image={ArrowIcon}
+          icon_text={"View Area Guide"} />
+       </div>
     </div>
 );
 };

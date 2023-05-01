@@ -1,5 +1,6 @@
 import style from "./styles.module.scss";
 import searchIcon from "../../images/searchIcon.svg";
+import { Button } from "../Button/Button";
 
 export const Hero  = () => {
   return (
@@ -9,8 +10,8 @@ export const Hero  = () => {
       most trusted online real estate portal</h1>
      </div>
      <div className={style["button"]}>
-         <button>BUY</button>
-         <button>RENT</button>
+        <Button title="BUY" type="primary"/>
+        <Button title="RENT" type="primary"/>
      </div>
          <div className={style["searcher"]}>
          <div className={style["input"]}>

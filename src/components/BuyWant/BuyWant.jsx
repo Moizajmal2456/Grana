@@ -12,12 +12,14 @@ return(
     title="Invest"
     text="Invest in fully legal Imarat projects. Our “Ownerships & Approvals, Demand & Delivery” approach ensures fantastic returns with full risk mitigation"
     buttonText="Invest Now"
+    buttonType="secondary"
     />
     <DescriptionCards
     image={wanted}
     title="Wanted"
     text="In just 3 clicks activate a team of experts to find the properties you need"
-    buttonText="Wanted"/>
+    buttonText="Wanted"
+    buttonType="secondary"/>
     </div>
 );
 };
