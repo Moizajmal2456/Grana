@@ -1,14 +1,11 @@
 import { useState } from 'react';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import './App.css';
-import { BuyWant } from './components/BuyWant/BuyWant';
-import { Hero } from './components/Hero/Hero';
-import { Navbar }from "./components/Navbar/Navbar";
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { Services } from './components/Services/Services';
-import { AreaGuide } from './components/AreaGuide/AreaGuide';
-import { PropertiesByArea } from './components/PropertiesByArea/PropertiesByArea';
-import { propertiesList } from './Data/data';
+import { HomePage } from './Pages/HomePage';
+import { BuyPage } from './Pages/BuyPage';
+
 
 function App() {
 
@@ -47,17 +44,12 @@ function App() {
  };
  
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <button onClick={createUser}>Create User</button>
-    <button onClick={signInUser}> Sign In</button>  
-    <BuyWant/>
-    <Services/>
-    <AreaGuide/>
-    <PropertiesByArea title="Top areas by city"
-    propertiesList={propertiesList}/>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/buy' element={<BuyPage/>}/>
+    </Routes>
+    </BrowserRouter>
     );
 }
 

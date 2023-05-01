@@ -1,7 +1,10 @@
+import React from "react";
 import Logo from  "../../images/GraanaLogo.svg";
 import { Button } from "../Button/Button";
 import Modal from "react-modal";
 import style from "./styles.module.scss";
+import { Link } from "react-router-dom";
+import { BuyPage } from "../../Pages/BuyPage";
 const customStyles = {
     content: {
       top: "50%",
@@ -35,11 +38,15 @@ return(
 <nav>
     <div className={style["left-menu"]}>
      <div className={style["logo"]}>
+      <Link to="/">
      <img src={Logo} alt="logo"></img>
+      </Link>
      </div>
      <div className={style["menu-items"]}>
       <ul>
+        <Link to="/buy">
         <li>BUY</li>
+        </Link>
         <li>SELL</li>
         <li>RENT</li>
         <li>INVEST</li>
@@ -48,6 +55,7 @@ return(
     </div>
     <div className={style["right-menu"]}>
         <ul>WANTED</ul>
+        </div>
         <Button title={"Sign In"} size={"md"} type={"primary"} onClick={openModal} />
       <Modal
         isOpen={modalIsOpen}
@@ -56,16 +64,21 @@ return(
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h1>Login Form</h1>
-        <input type="text" placeholder="Enter Email" />
+        <h2 >Sign in to your account</h2>
+        <h4>Welcome back!</h4>
+        <input type="number" placeholder="+92 Phone Nummber" />
         <br />
         <br />
-        <input type="password" placeholder="Enter Password" />
+        <input type="password" placeholder="Password" />
         <br />
         <br />
-        <Button title="Login" />
+        <Button title="Login" type={"secondary"} size={"lg"}/>
+        <p>Forgot Password</p>
+        <Button title="Continue with Facebook" type={"primary"} size={"lg"}/>
+        <Button title="Continue with Google " type={"primary"} size={"lg"}/>
+        <Button title="Continue with Email" type={"primary"} size={"lg"}/>
+        <p>Don't have an account? Register Now</p>
       </Modal>
-    </div>
 </nav>
 );
 };
