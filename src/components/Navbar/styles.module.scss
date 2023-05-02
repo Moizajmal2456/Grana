@@ -22,10 +22,23 @@ nav{
     }
     .right-menu{
         display: flex;
-       align-items: center; 
+        align-items: center; 
+        gap: 30px;
     }
-    .buttons{
-        display: flex;
-        flex-direction: column;
+    .heading{
+        color: #394b57;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+    .h4{
+        color: #999;
+    font-size: 1rem;
+    }
+    .p{
+        color: #e85451;
+        text-align: center;
+    }
+    .p1{
+        text-decoration: underline;
     }
 }

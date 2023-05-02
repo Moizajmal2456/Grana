@@ -5,6 +5,7 @@ import { Services } from "../components/Services/Services";
 import { AreaGuide } from "../components/AreaGuide/AreaGuide";
 import { propertiesList } from "../Data/data";
 import { PropertiesByArea } from "../components/PropertiesByArea/PropertiesByArea";
+import { Blogs } from "../components/Blogs/Blogs";
 
 export const HomePage = () => {
 return( <>
@@ -21,6 +22,7 @@ propertiesList={propertiesList}/>
 propertiesList={propertiesList}/>
 <PropertiesByArea title="Recent Properties For Sale"
 propertiesList={propertiesList}/>
+<Blogs/>
 </>
 );
 };

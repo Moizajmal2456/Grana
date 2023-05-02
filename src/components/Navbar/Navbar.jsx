@@ -13,6 +13,7 @@ const customStyles = {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
+  
     },
   };
   
@@ -55,8 +56,8 @@ return(
     </div>
     <div className={style["right-menu"]}>
         <ul>WANTED</ul>
-        </div>
         <Button title={"Sign In"} size={"md"} type={"primary"} onClick={openModal} />
+        </div>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -64,8 +65,8 @@ return(
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h2 >Sign in to your account</h2>
-        <h4>Welcome back!</h4>
+        <h2 className={style.heading}>Sign in to your account</h2>
+        <h4 className={style.h4}>Welcome back!</h4>
         <input type="number" placeholder="+92 Phone Nummber" />
         <br />
         <br />
@@ -73,11 +74,11 @@ return(
         <br />
         <br />
         <Button title="Login" type={"secondary"} size={"lg"}/>
-        <p>Forgot Password</p>
+        <p className={style.p}>Forgot Password</p>
         <Button title="Continue with Facebook" type={"primary"} size={"lg"}/>
         <Button title="Continue with Google " type={"primary"} size={"lg"}/>
         <Button title="Continue with Email" type={"primary"} size={"lg"}/>
-        <p>Don't have an account? Register Now</p>
+        <p className={style.p1}>Don't have an account? Register Now</p>
       </Modal>
 </nav>
 );
