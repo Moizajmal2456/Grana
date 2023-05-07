@@ -2,7 +2,7 @@ import AuthorImage from "../../images/blogUserDummyImage.svg";
 import GangaRamHospital from "../../images/Hospital-Emergency-Block.webp";
 import KarachiStation from "../../images/karachi-station.webp";
 import DubaiTower from "../../images/DubaiTower.webp";
-import { BlogsCards } from "../BlogsCards/BlogsCards";
+import { BlogsCards } from "../Cards/BlogsCards/BlogsCards";
 import style from "./styles.module.scss";
 import { Button } from "../Button/Button";
 

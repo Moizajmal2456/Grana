@@ -5,7 +5,7 @@ import Sell from "../../images/sell.svg";
 import Rent from "../../images/rent.svg";
 import GrayEclipse from "../../images/greyEllipse.svg";
 import RedEclipse from "../../images/redEllipse.svg";
-import { DescriptionCards } from "../DescriptionCards/Descriptioncard";
+import { DescriptionCards } from "../Cards/DescriptionCards/Descriptioncard";
 
 export const Services = () => {
 return(

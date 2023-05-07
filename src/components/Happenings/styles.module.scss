@@ -1,0 +1,10 @@
+.Happenings_Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .Cards{
+        display: flex;
+        flex-direction: row;
+    }
+}

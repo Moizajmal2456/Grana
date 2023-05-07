@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./styles.module.scss";
-import { Button } from "../Button/Button";
+import { Button } from "../../Button/Button";
 
 export const DescriptionCards = ({image, title, text, buttonText, buttonType}) => {
 return(

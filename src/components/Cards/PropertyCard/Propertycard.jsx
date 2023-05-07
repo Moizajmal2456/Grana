@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./styles.module.scss";
-import { IconWithText } from "../IconWithText/IconwithText";
-import RentIcon from "../../images/rent_icon.svg";
-import HomeIcon from "../../images/home_icon.svg";
-import ArrowIcon from "../../images/areaGuideArrow.svg";
+import { IconWithText } from "../../IconWithText/IconwithText";
+import RentIcon from "../../../images/rent_icon.svg";
+import HomeIcon from "../../../images/home_icon.svg";
+import ArrowIcon from "../../../images/areaGuideArrow.svg";
 
 export const PropertyCard = ({property}) => {
 return(

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./styles.module.scss";
 import { citiesList } from "../../Data/data";
 import { Button } from "../Button/Button";
-import { PropertyCard } from "../PropertyCard/Propertycard";
+import { PropertyCard } from "../Cards/PropertyCard/Propertycard";
 
 export const PropertiesByArea = ({title , propertiesList }) => {
   // const [properties , setProperties] = useState([]);

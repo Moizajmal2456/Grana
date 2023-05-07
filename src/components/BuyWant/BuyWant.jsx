@@ -2,7 +2,7 @@ import React from "react";
 import invest from "../../images/invest.webp";
 import wanted from "../../images/wanted.webp";
 import style from "./styles.module.scss";
-import { DescriptionCards } from "../DescriptionCards/Descriptioncard";
+import { DescriptionCards } from "../Cards/DescriptionCards/Descriptioncard";
 
 export const BuyWant = () => {
 return(

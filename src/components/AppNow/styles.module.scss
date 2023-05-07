@@ -1,0 +1,28 @@
+.Class_Wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    background-color: rgb(230, 228, 228);
+    .Left_Section{
+      margin-left: 50px;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-weight: 200;
+      font-size: 2.1rem;
+      line-height: 1.7;
+      color: rgb(55, 71, 79);
+      flex-direction: column;
+      .Button {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    .Right_Section{
+        justify-content:center;
+        width: 50%;
+        display: flex;
+    }
+}
