@@ -6,20 +6,12 @@
     align-items: center;
     border-radius: 16px;
     flex-direction: column;
+    background-color: gray;
     .Blogs{
         display: flex;
-        // justify-content: center;
-        align-items: center;
+        overflow: hidden;
         margin: auto;
-        padding: 20px;
+        padding: 20px; 
+        overflow: hidden;
     }
-    // .cards{
-    //     margin: 40px;
-    //     padding: 40px;
-    //     display: flex;
-    //     position: relative;
-    //     border-radius: 16px;
-    //     background-color: white;
-    //     backdrop-filter: blur(10px);
-    // }
 }

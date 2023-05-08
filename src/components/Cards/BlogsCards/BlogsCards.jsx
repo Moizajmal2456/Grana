@@ -10,7 +10,7 @@ return(
         <h2>{title}</h2>
         <p>{text}</p>
         <div className={style.detail}>
-        <img src={author} alt="authorimage"/>
+        {/* <img src={author} alt="authorimage"/> */}
         <p>{date}</p>
         </div>
     </div>
