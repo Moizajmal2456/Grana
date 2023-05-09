@@ -39,6 +39,7 @@ export const citiesList = [
       properties_for_rent: 290,
       properties_for_sales: 590,
       cityId: 1,
+      view: "View Area Guide",
     },
     {
       id: 2,
@@ -49,6 +50,7 @@ export const citiesList = [
       properties_for_rent: 3950,
       properties_for_sales: 5590,
       cityId: 1,
+      view: "View Area Guide",
     },
     {
       id: 3,
@@ -59,6 +61,7 @@ export const citiesList = [
       properties_for_rent: 390,
       properties_for_sales: 5950,
       cityId: 2,
+      view: "View Area Guide",
     },
     {
       id: 4,
@@ -69,6 +72,7 @@ export const citiesList = [
       properties_for_rent: 39430,
       properties_for_sales: 594330,
       cityId: 3,
+      view: "View Area Guide",
     },
     {
       id: 5,
@@ -79,6 +83,7 @@ export const citiesList = [
       properties_for_rent: 39430,
       properties_for_sales: 5943301,
       cityId: 4,
+      view: "View Area Guide",
     },
   ];
   export const BlogsData = [

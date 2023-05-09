@@ -17,8 +17,15 @@
 //             height: 100px;
 //         }
 //     }
+.cards{
+   img{
+    width: 100%;
+    max-width: inherit;
+    object-fit: contain;
+   }
     .rs_div {
         display: flex;
         margin-left: 15px;
         gap: 20px;
     }
+}

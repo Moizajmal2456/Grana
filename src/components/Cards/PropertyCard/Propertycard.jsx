@@ -18,10 +18,9 @@ return(
           icon_text={property.properties_for_rent + " for rent"} />
           <IconWithText icon_image={HomeIcon}
           icon_text={property.properties_for_sale + " for sale"} />
+          
           </div>
           <hr/>
-          <IconWithText icon_image={ArrowIcon}
-          icon_text={"View Area Guide"} />
        </div>
     </div>
 );
