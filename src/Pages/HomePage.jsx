@@ -8,6 +8,7 @@ import { PropertiesByArea } from "../components/PropertiesByArea/PropertiesByAre
 import { Blogs } from "../components/Blogs/Blogs";
 import { AppNow } from "../components/AppNow/AppNow";
 import { Happenings } from "../components/Happenings/Happenings";
+import { Footer } from "../components/Footer/Footer";
 
 export const HomePage = () => {
 return( <>
@@ -27,6 +28,7 @@ propertiesList={propertiesList}/>
 <Blogs/>
 <AppNow/>
 <Happenings/>
+<Footer/>
 </>
 );
 };

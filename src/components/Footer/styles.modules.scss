@@ -1,0 +1,30 @@
+.Footer_wrapper{
+    display: flex;
+    flex-direction: column;
+    .Link_wrapper{
+        display: flex;
+        .About{
+            display: flex;
+            flex-direction: column;
+        }
+        .Quick_Links{
+            display: flex;
+            flex-direction: column;
+        }
+        .ContactUs{
+            display: flex;
+            flex-direction: column;
+        }
+        .images{
+            display: flex;
+        }
+    }
+    .Terms{
+        background-color: gray;
+        text-align: center;
+    }
+    .Footer{
+     width: 100%;
+     object-fit: contain;
+    }
+}
