@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     .Link_wrapper{
+        width: 100%;
         display: flex;
+        justify-content: space-around;
         .About{
             display: flex;
             flex-direction: column;
@@ -14,17 +16,25 @@
         .ContactUs{
             display: flex;
             flex-direction: column;
+            gap: 10px;
         }
-        .images{
+        .Follow{
             display: flex;
+            flex-direction: column;
+            .Images{
+                display: flex;
+                gap: 5px;
+            }
         }
     }
     .Terms{
-        background-color: gray;
+        background-color: #F2F2F2;
         text-align: center;
     }
-    .Footer{
+    .footer{
      width: 100%;
-     object-fit: contain;
+     img{
+        width: 100%;
+     }
     }
 }
