@@ -5,7 +5,9 @@
     flex-direction: column;
     .Cards{
         left: 0px;
+        gap: 20px;
         display: flex;
+        margin-top: 40px;
         flex-direction: row;
     }
 }

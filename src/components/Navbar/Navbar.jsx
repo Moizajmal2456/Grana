@@ -37,13 +37,13 @@ export const Navbar  = ( ) => {
     }
 return(
 <nav>
-    <div className={style["left-menu"]}>
-     <div className={style["logo"]}>
+    <div className={style.left_menu}>
+     <div className={style.logo}>
       <Link to="/">
      <img src={Logo} alt="logo"></img>
       </Link>
      </div>
-     <div className={style["menu-items"]}>
+     <div className={style.menu_items}>
       <ul>
         <Link to="/buy">
         <li>BUY</li>
@@ -54,7 +54,7 @@ return(
     </ul>
      </div>
     </div>
-    <div className={style["right-menu"]}>
+    <div className={style.right_menu}>
         <ul>WANTED</ul>
         <Button title={"Sign In"} size={"md"} type={"primary"} onClick={openModal} />
         </div>
