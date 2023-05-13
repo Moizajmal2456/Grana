@@ -15,9 +15,9 @@ return (
     </div>
     </div>
     <div className={style.right_section}>
-     {/* <div className={style.image}>
+     <div className={style.image}>
        <img src={Map} alt="Map"/>
-    </div> */}
+    </div>
      </div>
  </div>
 );
