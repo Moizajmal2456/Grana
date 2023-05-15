@@ -55,7 +55,7 @@ return(
     </div>
     <div className={style.right_menu}>
         <ul>WANTED</ul>
-        <Link to="/singup">
+        <Link to="/signup">
         <Button title={"Sign In"} size={"md"} type={"primary"}/>
         </Link>
         </div>

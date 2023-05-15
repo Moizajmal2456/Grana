@@ -3,8 +3,6 @@ import style from "./styles.module.scss";
 import Buy from "../../images/buy.svg";
 import Sell from "../../images/sell.svg";
 import Rent from "../../images/rent.svg";
-import GrayEclipse from "../../images/greyEllipse.svg";
-import RedEclipse from "../../images/redEllipse.svg";
 import { DescriptionCards } from "../Cards/DescriptionCards/Descriptioncard";
 
 export const Services = () => {
