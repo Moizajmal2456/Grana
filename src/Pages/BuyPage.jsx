@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer/Footer";
 import { Navbar } from "../components/Navbar/Navbar";
 import { PropertiesByArea } from "../components/PropertiesByArea/PropertiesByArea";
 import { propertiesList } from "../Data/data";
@@ -7,6 +8,7 @@ return(<>
     <Navbar/>
     <PropertiesByArea title="Top areas by city"
 propertiesList={propertiesList}/>
+<Footer/>
 </>
 );
 };

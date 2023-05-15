@@ -4,7 +4,6 @@ import { Button } from "../Button/Button";
 import Modal from "react-modal";
 import style from "./styles.module.scss";
 import { Link } from "react-router-dom";
-import { BuyPage } from "../../Pages/BuyPage";
 const customStyles = {
     content: {
       top: "50%",
@@ -56,7 +55,9 @@ return(
     </div>
     <div className={style.right_menu}>
         <ul>WANTED</ul>
-        <Button title={"Sign In"} size={"md"} type={"primary"} onClick={openModal} />
+        <Link to="/singup">
+        <Button title={"Sign In"} size={"md"} type={"primary"}/>
+        </Link>
         </div>
       <Modal
         isOpen={modalIsOpen}

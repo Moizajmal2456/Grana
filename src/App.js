@@ -5,6 +5,7 @@ import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { HomePage } from './Pages/HomePage';
 import { BuyPage } from './Pages/BuyPage';
+import { SignupPage } from './Pages/SignupPage';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage/>}/>
       <Route path='/buy' element={<BuyPage/>}/>
+      <Route path='/signup' element={<SignupPage/>}/>
     </Routes>
     </BrowserRouter>
     );
