@@ -1,6 +1,6 @@
 .Signup_Wrapper{
     width: 30%;
-    margin: auto;
+    margin:auto;
     justify-content: center;
     border-radius: 20px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
@@ -15,6 +15,24 @@
       .Register{
         text-align: center;
         color: #37474f;
+      }
+      .Or{
+        display: flex;
+        align-items: center;       
+        .Line{
+          flex-grow: 1;
+          height: 1px;
+          background-color: black;
+        }
+        .Text{
+          margin: 0 10px;
+        }
+      }
+      button{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(187, 187, 187);
+        justify-content: space-evenly;
       }
     }
 }
